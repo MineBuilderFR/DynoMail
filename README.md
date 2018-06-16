@@ -1,5 +1,3 @@
-#DynoMail
-
 ## Description
 Send a message to a player offline or online 
 
