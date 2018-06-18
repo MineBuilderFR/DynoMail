@@ -7,7 +7,7 @@ This plugin is a demo plugin using __Dyno and DynoPM__ not a full mail system fo
 ## Information
 * Depends: __DynoPM__
 * Version: 1.0
-* For PocketMine :  3.0.0-ALPHA12
+* For PocketMine :  3.0.0
 
 ## Configuration
 
