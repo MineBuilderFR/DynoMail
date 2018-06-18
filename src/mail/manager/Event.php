@@ -18,13 +18,14 @@ use dynoLibPacket\inputPacketLib;
 use dynoPM\event\packet\OutputPacketReceivedEvent;
 use dynoPM\network\packages\executor\inputPacket;
 use mail\Main;
-use pocketmine\event\Listener;
-use pocketmine\event\player\PlayerJoinEvent;
+use pocketmine\event\{
+    Listener,
+    player\PlayerJoinEvent
+};
 use pocketmine\Player;
-use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
-class Event extends PluginBase implements Listener
+class Event implements Listener
 {
     /** @var Main */
     private $plugin;

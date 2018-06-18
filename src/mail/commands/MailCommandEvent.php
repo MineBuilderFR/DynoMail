@@ -20,10 +20,9 @@ use dynoPM\event\packet\OutputPacketReceivedEvent;
 use dynoPM\network\packages\executor\inputPacket;
 use mail\Main;
 use pocketmine\event\Listener;
-use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
-class MailCommandEvent extends PluginBase implements Listener
+class MailCommandEvent implements Listener
 {
     /** @var Main */
     private $plugin;

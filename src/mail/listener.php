@@ -16,9 +16,8 @@ namespace mail;
 
 use mail\commands\MailCommandEvent;
 use mail\manager\Event;
-use pocketmine\plugin\PluginBase;
 
-class listener extends PluginBase implements \pocketmine\event\Listener
+class listener implements \pocketmine\event\Listener
 {
     public static $instance = null;
     /** @var Main */
