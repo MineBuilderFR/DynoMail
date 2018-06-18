@@ -40,7 +40,7 @@ class Main extends PluginBase implements Listener
         $dynoDesc = (string)$this->getConfig()->get("DynoDescription");
         DynoPM::getInstance()->addPluginSyncWithDynoDescription($this, $dynoDesc);
         if (($this->dyno = DynoPM::getInstance()->getDynoByDescription($dynoDesc)) === null) {
-            $this->getPluginLoader()->disablePlugin($this);
+            $this->getServer()->getPluginManager()->disablePlugin($this);
             return;
         }
         $this->getServer()->getLogger()->info("Dyno mail been enabled!");
